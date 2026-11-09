@@ -3,23 +3,92 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Factcheck Privacy Policy</title>
+  <title>Factcheck Talk Privacy Policy</title>
+  <style>
+    body { font: 16px/1.55 -apple-system, system-ui, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; color: #1b1f24; background: #fff; }
+    h1 { font-size: 26px; } h2 { font-size: 19px; margin-top: 28px; }
+    .muted { color: #5b6470; } a { color: #0b63c5; }
+    hr { border: 0; border-top: 1px solid #e3e6ea; margin: 36px 0; }
+  </style>
 </head>
 <body>
-  <h1>Factcheck Privacy Policy</h1>
-  <p>Effective date: 2026-02-20</p>
-  <p>Factcheck is a privacy-first writing assistant.</p>
-  <h2>What we process</h2>
+  <h1>Factcheck Talk Privacy Policy</h1>
+  <p class="muted">Effective date: 2026-11-09 · <a href="#fr">Français</a></p>
+  <p>Factcheck Talk listens to a conversation or a debate, picks out factual claims and shows a verdict for each one. This page explains, in plain words, what happens to your data.</p>
+
+  <h2>Microphone and speech</h2>
   <ul>
-    <li>Draft text entered in the app.</li>
-    <li>Optional worker requests when the user enables worker mode.</li>
-    <li>Minimal product analytics events without user text content.</li>
+    <li>The microphone is used only after you tap Listen, and stops when you tap End.</li>
+    <li>Speech is turned into text on your iPhone when the device supports it. On some older iPhone models, Apple's own speech recognition service is used instead; the app tells you so on screen. In that case the audio is processed by Apple under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</li>
+    <li>Audio is never sent to our server and is never stored.</li>
   </ul>
-  <h2>What we do not process</h2>
+
+  <h2>Claims sent for checking</h2>
   <ul>
-    <li>Audio recordings are never uploaded.</li>
-    <li>Worker logs do not store user text content.</li>
+    <li>Only the text of sentences the app selects as factual claims (with up to two sentences of context) is sent over HTTPS to our server, only if you agreed to it in the app. You can turn this off at any time in Settings.</li>
+    <li>Our server asks an AI model (Google Gemini) to assess the claim and looks up public encyclopedia pages (Wikipedia). Google processes the text under its API terms.</li>
+    <li>To answer faster, a verdict may be kept on our server for up to 7 days, keyed by a fingerprint of the claim text. It is not linked to you or to your device.</li>
   </ul>
+
+  <h2>Daily limits and purchases</h2>
+  <ul>
+    <li>The app sends a random identifier created on your device, so that free daily limits can be counted. It is not linked to your name, your Apple ID or any advertising identifier.</li>
+    <li>If you subscribe, the app sends the signed proof of purchase provided by Apple, so that our server can apply your plan. Payments are handled entirely by Apple; we receive no payment details.</li>
+  </ul>
+
+  <h2>What stays on your iPhone</h2>
+  <ul>
+    <li>Transcripts, claims, verdicts and the summaries you choose to keep are stored on your iPhone only. Deleting the app deletes them.</li>
+    <li>Optional notifications for false claims are local notifications, off by default.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No account, no advertising, no tracking, no sale of data.</li>
+    <li>Our server logs contain no claim text and no audio.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>support@factcheck.app</p>
+
+  <hr />
+
+  <h1 id="fr">Politique de confidentialité de Factcheck Talk</h1>
+  <p class="muted">En vigueur le 9 novembre 2026</p>
+  <p>Factcheck Talk écoute une conversation ou un débat, repère les affirmations factuelles et affiche un verdict pour chacune. Voici, simplement, ce que deviennent vos données.</p>
+
+  <h2>Micro et parole</h2>
+  <ul>
+    <li>Le micro n'est utilisé qu'après avoir touché Écouter, et s'arrête quand vous touchez Terminer.</li>
+    <li>La parole est transcrite sur votre iPhone quand l'appareil le permet. Sur certains iPhone plus anciens, c'est le service de reconnaissance vocale d'Apple qui est utilisé ; l'app vous l'indique à l'écran. Le son est alors traité par Apple, selon <a href="https://www.apple.com/fr/legal/privacy/">sa politique de confidentialité</a>.</li>
+    <li>Le son n'est jamais envoyé à notre serveur et n'est jamais conservé.</li>
+  </ul>
+
+  <h2>Affirmations envoyées pour vérification</h2>
+  <ul>
+    <li>Seul le texte des phrases retenues comme affirmations (avec au plus deux phrases de contexte) est envoyé en HTTPS à notre serveur, et seulement si vous l'avez accepté dans l'app. Vous pouvez le couper à tout moment dans les Réglages.</li>
+    <li>Notre serveur demande à un modèle d'IA (Google Gemini) d'évaluer l'affirmation et consulte des pages d'encyclopédie publiques (Wikipédia). Google traite le texte selon ses conditions d'API.</li>
+    <li>Pour répondre plus vite, un verdict peut être gardé sur notre serveur jusqu'à 7 jours, sous une empreinte du texte de l'affirmation. Il n'est lié ni à vous ni à votre appareil.</li>
+  </ul>
+
+  <h2>Limites quotidiennes et achats</h2>
+  <ul>
+    <li>L'app envoie un identifiant aléatoire créé sur votre appareil, pour compter les limites gratuites du jour. Il n'est lié ni à votre nom, ni à votre identifiant Apple, ni à un identifiant publicitaire.</li>
+    <li>Si vous vous abonnez, l'app envoie la preuve d'achat signée fournie par Apple, pour que notre serveur applique votre offre. Les paiements sont entièrement gérés par Apple ; nous ne recevons aucune donnée de paiement.</li>
+  </ul>
+
+  <h2>Ce qui reste sur votre iPhone</h2>
+  <ul>
+    <li>Les transcriptions, affirmations, verdicts et résumés que vous gardez restent sur votre iPhone. Supprimer l'app les supprime.</li>
+    <li>Les notifications facultatives pour les affirmations fausses sont locales et désactivées par défaut.</li>
+  </ul>
+
+  <h2>Ce que nous ne faisons pas</h2>
+  <ul>
+    <li>Aucun compte, aucune publicité, aucun suivi, aucune vente de données.</li>
+    <li>Les journaux de notre serveur ne contiennent ni le texte des affirmations ni le son.</li>
+  </ul>
+
   <h2>Contact</h2>
   <p>support@factcheck.app</p>
 </body>
